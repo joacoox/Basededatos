@@ -10,7 +10,7 @@ namespace SQLServer
     public class AlumnoDB : Consulta, IModificable<Alumno>
     {
 
-        public AlumnoDB() : base() 
+        public AlumnoDB() : base("") 
         {
 
 
